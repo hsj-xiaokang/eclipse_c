@@ -1,0 +1,3 @@
+I:/eclipse-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/eclipse-c/cmake-build-debug/CMakeFiles/eclipse_c.dir
+I:/eclipse-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

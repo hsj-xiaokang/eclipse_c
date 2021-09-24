@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/eclipse-c/close_test/close_test.c
+close_test.h
+I:/eclipse-c/close_test/close_test.h
+
+I:/eclipse-c/close_test/close_test.h
+stdio.h
+-
+

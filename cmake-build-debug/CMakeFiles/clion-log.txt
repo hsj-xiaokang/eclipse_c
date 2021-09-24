@@ -1,0 +1,4 @@
+"I:\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" I:\eclipse-c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: I:/eclipse-c/cmake-build-debug

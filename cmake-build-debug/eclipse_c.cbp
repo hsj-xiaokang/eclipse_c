@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="eclipse_c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="I:/eclipse-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="I:/eclipse-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eclipse_c">
+				<Option output="I:/eclipse-c/cmake-build-debug/eclipse_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/eclipse-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="I:/eclipse-c/arr"/>
+					<Add directory="I:/eclipse-c/define_s"/>
+					<Add directory="I:/eclipse-c/enum_s"/>
+					<Add directory="I:/eclipse-c/func_pointer"/>
+					<Add directory="I:/eclipse-c/pointer"/>
+					<Add directory="I:/eclipse-c/printf_s"/>
+					<Add directory="I:/eclipse-c/ptread_use"/>
+					<Add directory="I:/eclipse-c/size_t_s"/>
+					<Add directory="I:/eclipse-c/str"/>
+					<Add directory="I:/eclipse-c/struct_s"/>
+					<Add directory="I:/eclipse-c/typedef_s"/>
+					<Add directory="I:/eclipse-c/union_s"/>
+					<Add directory="I:/eclipse-c/thread_pool"/>
+					<Add directory="I:/eclipse-c/primit_pointer"/>
+					<Add directory="I:/eclipse-c/op_file"/>
+					<Add directory="I:/eclipse-c/f_time"/>
+					<Add directory="I:/eclipse-c/close_test"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 eclipse_c"/>
+					<CompileFile command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eclipse_c/fast">
+				<Option output="I:/eclipse-c/cmake-build-debug/eclipse_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="I:/eclipse-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="I:/eclipse-c/arr"/>
+					<Add directory="I:/eclipse-c/define_s"/>
+					<Add directory="I:/eclipse-c/enum_s"/>
+					<Add directory="I:/eclipse-c/func_pointer"/>
+					<Add directory="I:/eclipse-c/pointer"/>
+					<Add directory="I:/eclipse-c/printf_s"/>
+					<Add directory="I:/eclipse-c/ptread_use"/>
+					<Add directory="I:/eclipse-c/size_t_s"/>
+					<Add directory="I:/eclipse-c/str"/>
+					<Add directory="I:/eclipse-c/struct_s"/>
+					<Add directory="I:/eclipse-c/typedef_s"/>
+					<Add directory="I:/eclipse-c/union_s"/>
+					<Add directory="I:/eclipse-c/thread_pool"/>
+					<Add directory="I:/eclipse-c/primit_pointer"/>
+					<Add directory="I:/eclipse-c/op_file"/>
+					<Add directory="I:/eclipse-c/f_time"/>
+					<Add directory="I:/eclipse-c/close_test"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="I:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 eclipse_c/fast"/>
+					<CompileFile command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="I:/eclipse-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="I:/mingw/mingw64/bin/mingw32-make.exe -f &quot;I:/eclipse-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="I:/eclipse-c/arr/arr.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/arr/arr.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/arr/arr_2.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/arr/arr_2.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/close_test/close_test.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/close_test/close_test.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/define_s/define_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/define_s/define_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/define_s/define_s_2.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/define_s/define_s_2.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/enum_s/enum_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/enum_s/enum_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/f_time/f_time.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/f_time/f_time.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/func_pointer/func_pointer.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/func_pointer/func_pointer.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/main_entry.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/op_file/op_file.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/op_file/op_file.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/pointer/pointer_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/pointer/pointer_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/primit_pointer/pp.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/primit_pointer/pp.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/printf_s/printf_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/printf_s/printf_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_c_0.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_c_0.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_lock_c_1_1.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_lock_c_1_1.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_semaphore_c_2.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_semaphore_c_2.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_unlock_c_1.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/ptread_use/pthread_unlock_c_1.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/size_t_s/size_t.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/size_t_s/size_t_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/str/str_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/str/str_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/struct_s/struct_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/struct_s/struct_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/thread_pool/example.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/thread_pool/example.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/thread_pool/thpool.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/thread_pool/thpool.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/typedef_s/typedef_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/typedef_s/typedef_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/union_s/union_s.c">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/union_s/union_s.h">
+			<Option target="eclipse_c"/>
+		</Unit>
+		<Unit filename="I:/eclipse-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
